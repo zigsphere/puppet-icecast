@@ -26,6 +26,6 @@ class icecast::params {
   $source_password   = 'password',
   $version           = '2.4.3'
   $sub_download_url  = 'http://downloads.xiph.org/releases/icecast/'
-  $download_source   = "${sub_download_url}/releases/icecast/icecast-${version}.tar.gz"
+  $download_source   = "${sub_download_url}/icecast-${version}.tar.gz"
 
 }
