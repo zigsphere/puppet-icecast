@@ -1,0 +1,12 @@
+[Unit]
+Description=Icecast - A music streaming service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=<%= @install_directory %>
+ExecStart=icecast -c <%= @install_directory %>/icecast.xml
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
