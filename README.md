@@ -1,4 +1,4 @@
-# icecast
+# puppet-icecast - Streaming Media Server
 
 #### Table of Contents
 
@@ -15,9 +15,9 @@
 
 ## Overview
 
-A one-maybe-two sentence summary of what the module does/what problem it solves.
-This is your 30 second elevator pitch for your module. Consider including
-OS/Puppet version it works with.
+This module has not yet been tested. Please use at your own risk. This readme is also under construction.
+
+This module installs the icecast media server
 
 ## Module Description
 
@@ -40,8 +40,7 @@ management, etc.) this is the time to mention it.
 
 ### Setup Requirements **OPTIONAL**
 
-If your module requires anything extra before setting up (pluginsync enabled,
-etc.), mention it here.
+Ensure 'make' package is already installed, otherwise, installation will fail.
 
 ### Beginning with icecast
 
@@ -65,7 +64,9 @@ with things. (We are working on automating this section!)
 
 ## Limitations
 
-This is where you list OS compatibility, version compatibility, etc.
+ - Ubuntu 14.04 LTS or later
+ - Debian 8 or later
+ - CentOS 7 or later
 
 ## Development
 

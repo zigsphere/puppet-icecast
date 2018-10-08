@@ -1,6 +1,6 @@
 # Author::    Joseph Ziegler  (mailto:joseph@josephziegler.com)
 # Copyright:: Copyright (c) 2018 ZigSphere
-# License::   MIT
+# License::   Apache 2.0
 
 class icecast::install {
 

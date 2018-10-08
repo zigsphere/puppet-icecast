@@ -84,7 +84,7 @@
 # === Copyright
 #
 # Copyright 2018 (c) ZigSphere
-# License: MIT
+# License: Apache 2.0
 #
 
 class icecast(
